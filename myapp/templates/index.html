@@ -343,18 +343,20 @@ to {opacity:1 ;}
 								{% for document in documents %}
                                     <div class="single-top-movie">
                                         <div class="img">
-                                            <a href="04_movie-details.html">
+                                            <a href={{document.docfile.url }} target="_blank">
+                                                {%
                                                 <img src="{% static 'img/home1/training.jpg' %}" alt="">
                                             </a>
                                         </div>
                                         <span class="view-counter" width="500px" height="500px">120 Views</span>
-                                        <a class="popup-youtube" href={{ document.docfile.url }}>
-										
+                                        <!--<a  href={{document.docfile.url }} target="_blank">-->
+										<!---->
+                                        <a href="{% url 'play' document.id %}">2012 Archive</a>
                                             <i class="far fa-play-circle"></i>
                                         </a>
                                         <div class="content">
                                             <h2 class="name">
-                                                <a href="04_movie-details.html">{{ document.docfile.name }}</a>
+                                                <a href="{% url 'play' document.id %}" target="_blank">{{ document.docfile.name }}</a>
                                             </h2>
                                             
                                             <p class="date">july 26, 2018</p>
@@ -368,12 +370,14 @@ to {opacity:1 ;}
 						
 						{% else %}
 						<p>No documents.</p>
+
 						{% endif %}
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 	<form action="{% url 'list' %}" method="post" enctype="multipart/form-data">
             {% csrf_token %}
             <!--<p>{{ form.non_field_errors }}</p>-->

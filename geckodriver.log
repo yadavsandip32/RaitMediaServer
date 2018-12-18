@@ -1,0 +1,55 @@
+1544788261566	geckodriver	INFO	geckodriver 0.19.1
+1544788261647	geckodriver	INFO	Listening on 127.0.0.1:55626
+1544788264993	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Dilip\\AppData\\Local\\Temp\\rust_mozprofile.DFJ4R1XIMSkk"
+1544788299866	Marionette	INFO	Listening on port 55645
+1544788302046	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544788311099	Marionette	DEBUG	[6442450945] Frame script loaded
+1544788311101	Marionette	DEBUG	[6442450945] Frame script registered
+[Parent 3472, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1544788315700	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1544788318665	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1544788319130	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.google.com/search?q=site%3Ahttps%3A%2F%2Ftimesofindia.com+inurl%3Ahiv&rlz=1C1CHBF_enIN801IN801&source=lnt&tbs=cdr%3A1%2Ccd_min%3A1%2F1%2F2010%2Ccd_max%3A&tbm=
+1544788326505	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.google.com/search?q=site%3Ahttps%3A%2F%2Ftimesofindia.com+inurl%3Ahiv&rlz=1C1CHBF_enIN801IN801&source=lnt&tbs=cdr%3A1%2Ccd_min%3A1%2F1%2F2010%2Ccd_max%3A&tbm=
+[Parent 3472, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13172, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13172, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 3472, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8912, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8912, Chrome_ChiJavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 683: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "CrashService waiting for content crash ping to be sent"
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1631: TypeError: subject.QueryInterface is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1544788429175	Marionette	INFO	Stopped listening on port 55645
+[GPU 11084, Chr
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1544788588261	geckodriver	INFO	geckodriver 0.19.1
+1544788588280	geckodriver	INFO	Listening on 127.0.0.1:56161
+1544788591751	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-mari1544788594407	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\1544788604200	Marionette	INFO	Listening on port 56179
+1544788604626	Marionette	WARN	TLS certificate errors wiconsole.error: "Could not write 1544788604687	Marionette	DEBUG	[6442450945] Frame script loaded
+1544788604689	Marionette	DEBUG	[6442450945] Frame script registered
+1544788604710	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1544788607011	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1544788607595	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.google.com/search?q=site%3Ahttps%3A%2F%2Ftimesofindia.com+inurl%3Ahiv&rlz=1C1CHBF_enIN801IN801&source=lnt&tbs=cdr%3A1%2Ccd_min%3A1%2F1%2F2010%2Ccd_max%3A&tbm=
+1544788609948	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.google.com/search?q=site%3Ahttps%3A%2F%2Ftimesofindia.com+inurl%3Ahiv&rlz=1C1CHBF_enIN801IN801&source=lnt&tbs=cdr%3A1%2Ccd_min%3A1%2F1%2F2010%2Ccd_max%3A&tbm=
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:711:13
+
+ank
+1544788609158	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1544788609530	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.google.com/search?q=site%3Ahttps%3A%2F%2Ftimesofindia.com+inurl%3Ahiv&rlz=1C1CHBF_enIN801IN801&source=lnt&tbs=cdr%3A1%2Ccd_min%3A1%2F1%2F2010%2Ccd_max%3A&tbm=
+1544788626035	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.google.com/search?q=site%3Ahttps%3A%2F%2Ftimesofindia.com+inurl%3Ahiv&rlz=1C1CHBF_enIN801IN801&source=lnt&tbs=cdr%3A1%2Ccd_min%3A1%2F1%2F2010%2Ccd_max%3A&tbm=
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:711:13
+
